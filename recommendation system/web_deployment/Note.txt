@@ -1,0 +1,8 @@
+for web app run app.py in the same folder
+open server
+
+require...
+flask
+pandas
+sklearn
+random

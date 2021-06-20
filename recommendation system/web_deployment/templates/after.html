@@ -1,0 +1,33 @@
+<html>
+<style>
+body {
+  background-image: 'static\hotel1.jpg';
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+    h1 {
+color:#4D5656;
+font-family: arial, sans-serif;
+font-size: 100px;
+font-weight: bold;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+</style>
+ <body background='static\22.jpg' >
+
+    <center>
+
+        <h1> Recommend for you</h1>
+        {{data | safe}}
+
+        <br><br>
+    <a href='/'>Try again </a>
+
+    </center>
+
+ </body>
+
+</html>
